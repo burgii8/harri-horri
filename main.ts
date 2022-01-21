@@ -1,5 +1,5 @@
 let a = 0
-basic.forever(function () {
+input.onGesture(Gesture.Shake, function () {
     a = randint(1, 2)
     if (a == 1) {
         basic.showIcon(IconNames.SmallSquare)
